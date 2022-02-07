@@ -78,7 +78,6 @@ export const InputModal: React.FC<InputModalProps> = (props) => {
     }, [props.label]);
 
     React.useEffect(() => {
-        console.log('effect2');
         const onHashChanged = () => {
             console.log('[hash change]', window.location.hash);
 

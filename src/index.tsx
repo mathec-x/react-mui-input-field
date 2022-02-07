@@ -35,8 +35,6 @@ export default function InputField({
   }, [props.type, value])
 
   React.useEffect(() => {
-    console.log('effect1');
-
     if (value && formatedDefaultValue !== state) {
       setState(formatedDefaultValue);
     }
