@@ -13,6 +13,17 @@ yarn add react-mui-input-field
 ``` bash
 npm i react-mui-input-field
 ```
+
+## simple usage
+```js
+
+import InputField from 'react-mui-input-field';
+...
+<InputField
+    label="Login"
+    onSubmit={console.log}
+  />
+```
 ### dependencies
 
 The entire package was built using material design v5
