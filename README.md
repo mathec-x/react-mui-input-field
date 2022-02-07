@@ -17,18 +17,18 @@ npm i react-mui-input-field
 
 The entire package was built using material design v5
 ```json
-dependencies: {
+"dependencies": {
   "@emotion/react": "^11.7.1",
   "@emotion/styled": "^11.6.0",
   "@mui/icons-material": "^5.3.1",
   "@mui/material": "^5.4.0",
   "react": "^17.0.2",
   "react-dom": "^17.0.2"
-},
+}
 ```
 
 ```bash
-yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @mui/icons-material
+yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled
 
 ```
 
