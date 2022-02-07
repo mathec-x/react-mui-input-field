@@ -26,12 +26,15 @@ dependencies: {
   "react-dom": "^17.0.2"
 },
 ```
-```
+
+```bash
 yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @mui/icons-material
 
 ```
 
 ### example
+
+<img src="./assets/lib.gif" width="550" height="350"/>
 
 ```js
 import React from 'react';
@@ -112,7 +115,3 @@ const App = (props) => {
 
 export default App;
 ```
-
-
-
-<img src="./assets/lib.gif" width="550" height="350"/>
