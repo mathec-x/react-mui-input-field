@@ -1,6 +1,8 @@
 # react-mui-input-field
 tool for single input material design
 
+- customized for desktop and mobile
+
 ## Install
  - yarn
 ``` bash
@@ -11,11 +13,33 @@ yarn add react-mui-input-field
 ``` bash
 npm i react-mui-input-field
 ```
+### dependencies
+
+The entire package was built using material design v5
+```json
+dependencies: {
+  "@emotion/react": "^11.7.1",
+  "@emotion/styled": "^11.6.0",
+  "@mui/icons-material": "^5.3.1",
+  "@mui/material": "^5.4.0",
+  "react": "^17.0.2",
+  "react-dom": "^17.0.2"
+},
+```
+```
+yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @mui/icons-material
+
+```
 
 ### example
 
 ```js
+import React from 'react';
 import InputField from 'react-mui-input-field';
+import Grid from '@mui/material/Grid';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardHeader from '@mui/material/CardHeader';
 
 const App = (props) => {
   const [state, setState] = React.useState({
@@ -89,4 +113,6 @@ const App = (props) => {
 export default App;
 ```
 
-![example](./assets/lib.gif)
+
+
+<img src="./assets/lib.gif" width="550" height="350"/>
