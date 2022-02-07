@@ -1,0 +1,73 @@
+Arguments: 
+  /usr/bin/node /home/mathec/.yarn/bin/yarn.js cache list
+
+PATH: 
+  /home/mathec/.yarn/bin:/home/mathec/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Invariant Violation: There should only be one folder in a package cache (got  in /home/mathec/.cache/yarn/v6/npm-@actve-models-1.0.0-6809c7920011caf410c2eb8b60f85d4aae5fa2eb/node_modules/@actve)
+      at invariant (/home/mathec/.yarn/lib/cli.js:2314:15)
+      at /home/mathec/.yarn/lib/cli.js:60734:11
+      at Generator.next (<anonymous>)
+      at step (/home/mathec/.yarn/lib/cli.js:310:30)
+      at /home/mathec/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-mui-input-field",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+      "build": "rollup -c",
+      "start": "rollup -c -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathec-x/react-mui-input-field"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+      "@mui/icons-material": ">=5.0.x",
+      "@mui/material": ">=5.0.x",
+      "react": ">16.0.0",
+      "react-dom": ">16.0.0"
+    },
+    "devDependencies": {
+      "@mui/icons-material": "^5.3.1",
+      "@mui/material": "^5.3.1",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@types/react": "^17.0.38",
+      "@types/react-dom": "^17.0.11",
+      "babel-core": "^6.26.3",
+      "babel-runtime": "^6.26.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "rollup": "^2.66.1",
+      "rollup-plugin-sass": "^1.2.10",
+      "rollup-plugin-typescript2": "^0.31.1",
+      "tslib": "^2.3.1",
+      "typescript": "^4.5.5"
+    },
+    "files": [
+      "dist"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
