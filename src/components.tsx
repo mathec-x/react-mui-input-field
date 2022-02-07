@@ -79,8 +79,6 @@ export const InputModal: React.FC<InputModalProps> = (props) => {
 
     React.useEffect(() => {
         const onHashChanged = () => {
-            console.log('[hash change]', window.location.hash);
-
             if (window.location.hash === `#input-field-${hash}`) {
                 setOpen(true);
             } else {
